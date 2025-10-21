@@ -5,9 +5,9 @@
   --cream: #D7CCC8;
 }
 
-.bg-brown { background-color: var(--brown) !important; }
-.text-brown { color: var(--light-brown) !important; }
-.bg-soft-brown { background-color: var(--soft-brown) !important; }
+.bg-brown { background-color: var(--brown); }
+.text-brown { color: var(--light-brown); }
+.bg-soft-brown { background-color: var(--soft-brown); }
 
 /* Base font sizes (mobile-first) */
 h1 { font-size: 1.75rem; }
@@ -161,4 +161,5 @@ p, .lead { font-size: 1rem; }
 html, body {
   height: 100%;
 }
+
 .cursor-pointer { cursor: pointer; }
