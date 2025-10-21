@@ -167,7 +167,6 @@ document.addEventListener('DOMContentLoaded', function () {
   
   const teas = [
     { name: "Sencha", type: "Green", desc: "Grassy, refreshing", img: "https://kuban24.tv/wp-content/uploads/2023/08/2-62.jpg" },
-    { name: "Matcha", type: "Green", desc: "Vibrant and earthy", img: "https://images.unsplash.com/photo-1602812998189-7554d8d6a7a0?auto=format&fit=crop&w=200" },
     { name: "Assam", type: "Black", desc: "Robust and malty", img: "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_6549c63f7cd8277aa2ddfb54_6549c766399a034e96564e25/scale_1200" },
     { name: "Chamomile", type: "Herbal", desc: "Calm and floral", img: "https://img.freepik.com/premium-photo/herbal-infusion-tea-with-chamomile-lavender-mint_1034924-8490.jpg" }
   ];
@@ -211,4 +210,5 @@ document.addEventListener('DOMContentLoaded', function () {
   if (themeBtn) {
     themeBtn.addEventListener('click', playSound);
   }
+
 });
